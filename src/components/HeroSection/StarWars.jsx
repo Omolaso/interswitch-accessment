@@ -13,7 +13,7 @@ const StarWars = () => {
           className="w-full max-w-[25rem] md:max-w-[30rem]"
         />
       </div>
-      <p className="force-awake hidden lg:block text-center absolute top-[50%] left-[50%] font-semibold md:font-bold text-[2rem] tracking-[0.2rem] max-w-[35rem]">
+      <p className="force-awake hidden lg:block text-center absolute top-[50%] left-[50%] font-semibold md:font-bold text-[2rem] tracking-[0.1rem] max-w-[35rem]">
         THE FORCE AWAKENS
       </p>
     </section>

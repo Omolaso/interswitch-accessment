@@ -29,7 +29,6 @@ const StarShips = ({ starShipData, currentPage, setCurrentPage }) => {
   };
   const previousPage = () => {
     setCurrentPage((currentPage) => currentPage - 1);
-    console.log(starShipData.results);
   };
 
   return (
