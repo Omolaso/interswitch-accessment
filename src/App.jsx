@@ -1,14 +1,13 @@
-import { useState } from 'react'
-
+import HeroSection from "./components/HeroSection";
+import DataSection from "./components/DataSection";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <HeroSection />
+      <DataSection />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
